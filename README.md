@@ -1,4 +1,4 @@
-# AI Volatility Predictor: A Financial Risk Analytics Dashboard
+# ML Volatility Predictor: A Financial Risk Analytics Dashboard
 
 This project is a comprehensive **data science solution** that predicts the **future volatility of financial assets**.  
 It showcases a **full-stack data science workflow**, from data acquisition and rigorous model building to deployment in an interactive web application.

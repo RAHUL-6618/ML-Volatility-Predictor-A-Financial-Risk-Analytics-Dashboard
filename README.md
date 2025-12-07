@@ -28,7 +28,7 @@ The solution uses **historical market data** to train a machine learning model, 
 ---
 
 
-##  Methodology & Mathematical Concepts
+##  Methodology 
 
 The model works by identifying patterns in historical data. Several features were engineered using **financial and mathematical concepts**.
 

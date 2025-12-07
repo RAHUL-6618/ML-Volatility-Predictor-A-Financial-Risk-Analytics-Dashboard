@@ -52,9 +52,9 @@ P_t = \text{Price on day } t
 ### 2. Historical Volatility
 The target variable is **annualized historical volatility** \( \sigma_P \):
 ```math
-[
+
 \sigma_P = \sqrt{\frac{1}{n-1} \sum_{i=1}^n (r_i - \bar{r})^2} \times \sqrt{252}
-]
+
 ```
 Where:  
 ```math
@@ -67,15 +67,15 @@ Where:
 ### 3. Relative Strength Index (RSI)
 Momentum oscillator used to measure the speed & change of price movements:
 ```math
-[
+
 RSI = 100 - \frac{100}{1 + RS}
-]
+
 ```
 Where:
 ```math
-[
+
 RS = \frac{\text{Average Gain}}{\text{Average Loss}}
-]
+
 ```
 ---
 
@@ -83,9 +83,9 @@ RS = \frac{\text{Average Gain}}{\text{Average Loss}}
 
 We evaluated the model using **R-squared (\(R^2\))**, which measures how much of the variance in the target variable is predictable from the features.
 ```math
-[
+
 R^2 = 1 - \frac{\sum_i (y_i - \hat{y}_i)^2}{\sum_i (y_i - \bar{y})^2}
-]
+
 ```
 Where:  
 ```math
@@ -103,15 +103,15 @@ For each split \( k in \{1, …, K\} \):
 
 - **Train**:
 ```math 
-[
+
 D^{train}_k = {(x_t, y_t) \mid t \in [T_0, T_k]}
-]
+
 ```
 - **Test**:
 ```math
-[
+
 D^{test}_k = {(x_t, y_t) \mid t \in [T_k, T'_k]}
-]
+
 ```
 This process yields a series of performance scores.  
 Our model achieved a **robust average \( R^2 = 0.9492 \)** from backtesting.

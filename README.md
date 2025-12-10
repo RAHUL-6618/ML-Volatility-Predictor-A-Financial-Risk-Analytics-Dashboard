@@ -6,8 +6,8 @@ It showcases a **full-stack data science workflow**, from data acquisition and r
 ---
 
 ##  Overview
-The goal of this project is to provide a reliable forecast of a stock's **short-term volatility**, a key measure of risk for investors and analysts.  
-The solution uses **historical market data** to train a machine learning model, which is then served through a **user-friendly web interface**.
+The goal of this project is to provide a reliable forecast of a stock's **short term volatility**, a key measure of risk for investors and analysts.  
+The solution uses **historical market data** to train a machine learning model, which is then served through a **user friendly web interface**.
 
 ###  Core Components
 - **Data Engineering** → Sourcing, cleaning, and transforming raw financial data  
@@ -20,7 +20,7 @@ The solution uses **historical market data** to train a machine learning model, 
 ###  Key Features
 - **Real-time Predictions** → Instant volatility forecast for any stock by entering its ticker symbol  
 - **Interactive Dashboard** → Built with Streamlit, visualizing historical price movements, volatility trends, and clear risk assessments  
-- **Advanced Methodology** → Uses **XGBoost**, hyperparameter tuning, and a rigorous backtesting strategy  
+- **Methodology** → Uses **XGBoost**, hyperparameter tuning, and a rigorous backtesting strategy  
 - **Model Transparency** → Displays the most important features influencing the model’s predictions  
 - **Walk-Forward Backtesting** → Validates the model over multiple rolling time windows to simulate real-world performance  
  

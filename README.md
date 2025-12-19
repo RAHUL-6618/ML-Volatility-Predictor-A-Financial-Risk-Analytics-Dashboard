@@ -36,7 +36,7 @@ The model works by identifying patterns in historical data. Several features wer
 
 ### 1. Logarithmic Returns
 ```math
-Daily log returns ( r_t ):
+Daily  log  returns ( r_t ):
 
 
 r_t = ln \left(\frac{P_t}{P_{t-1}}\right)

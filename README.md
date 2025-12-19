@@ -36,7 +36,7 @@ The model works by identifying patterns in historical data. Several features wer
 
 ### 1. Logarithmic Returns
 ```math
-Daily  log  returns ( r_t ):
+Daily_log_returns ( r_t ):
 
 
 r_t = ln \left(\frac{P_t}{P_{t-1}}\right)
@@ -58,9 +58,9 @@ The target variable is **annualized historical volatility** \( \sigma_P \):
 ```
 Where:  
 ```math
-- ( n = 21 ) (rolling window in days)  
-- ( \bar{r} ) = Mean daily log return  
-- 252 ≈ trading days in a year  
+- ( n = 21 ) (rolling_window_in_days)  
+- ( \bar{r} ) = Mean_daily_log_return  
+- 252 ≈ trading_days_in_a_year  
 ```
 ---
 

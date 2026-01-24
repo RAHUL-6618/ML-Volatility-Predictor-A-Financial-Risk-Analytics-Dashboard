@@ -151,5 +151,5 @@ Note: Ensure volatility_model.joblib is in the same directory as app.py.
 ### 3. Run the App
 ```bash
 # Launch the Streamlit application
-streamlit run app.py
+streamlit run Project_3.ipynb.py
 ```
